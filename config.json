@@ -1,0 +1,11 @@
+{
+    "key": "PUT_KEY_HERE",
+    "Computer": {
+        "Device name": "vm01",
+        "Time": "1h",
+        "Interval": "1m",
+        "GPU Present": false,
+        "GPU util": "10",
+        "CPU util": "10"
+    }
+}
