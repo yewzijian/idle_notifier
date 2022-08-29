@@ -1,0 +1,9 @@
+[Unit]
+Description=Notifies user when computer is idle
+
+[Service]
+Type=simple
+ExecStart={PYTHON_PATH} {SCRIPT_PATH}
+
+[Install]
+WantedBy=multi-user.target
