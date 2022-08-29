@@ -6,7 +6,7 @@ import subprocess
 
 
 def idle_notifier_setup():
-    if True or os.geteuid() == 0:
+    if os.geteuid() == 0:
         run_setup()
     else:
         python_path = sys.executable
