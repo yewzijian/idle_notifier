@@ -26,6 +26,7 @@ setuptools.setup(
         "psutil"
         "urllib3"
     ],
+    include_package_data=True,
     entry_points={
         'console_scripts': [
             'idle_notifier_setup = idle_notifier:idle_notifier_setup',

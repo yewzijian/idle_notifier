@@ -1,0 +1,2 @@
+include src/idle_notifier/_config.json
+include src/idle_notifier/_idle_notifier.service
