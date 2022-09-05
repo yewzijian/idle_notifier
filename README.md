@@ -33,7 +33,7 @@ Then run the setup tool:
 idle_notifier_setup
 ```
 
-Follow the instructions and enter the machine name and api key when prompted.
+Follow the instructions and enter the machine name and api key when prompted. Once installed, you should receive a notification on your phone.
 
 ## Uninstall
 
@@ -56,7 +56,7 @@ Follow the instructions and enter the machine name and api key when prompted.
 * You may check the status of the idle_notifier with the following command:
   
   ```bash
-  systemctl enable idle_notifier
+  systemctl status idle_notifier
   ```
   
   
