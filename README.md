@@ -24,7 +24,7 @@ Take note of your API key.
    * or directly install from this git repository
      
      ```bash
-     pip install https+https://github.com/yewzijian/idle_notifier.git
+     pip install --upgrade git+https://github.com/yewzijian/idle_notifier.git
      ```
 
 Then run the setup tool:
