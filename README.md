@@ -2,7 +2,7 @@
 
 This script notifies the user using SimplePush when the computer is idle. 
 
-Note: This repo is for internal use only. No support will be provided, use at your own risk.
+Note: This repo is for internal use only. No support will be provided, **use at your own risk!!**. Also, this script only works on Linux systems with Nvidia GPU.
 
 ## Pre-requisites
 
