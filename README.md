@@ -52,3 +52,11 @@ Follow the instructions and enter the machine name and api key when prompted.
 ## Additional notes
 
 * By default, the script checks CPU/GPU usage every minute. If it falls below both thresholds of 10% CPU and GPU usage for over 30min, a notification will be sent. Currently there is no functionality to easily configure these parameters, but they can be edited manually in `config.json`.
+
+* You may check the status of the idle_notifier with the following command:
+  
+  ```bash
+  systemctl enable idle_notifier
+  ```
+  
+  
